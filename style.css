@@ -1,0 +1,75 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.header-content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);  
+    border-radius: 10px;
+}
+ ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+} 
+
+
+li {
+    margin-bottom: 8px;
+    text-align: center; 
+} 
+
+ .image-container {
+    max-width: 100%; /* Ensure the container is not wider than the viewport */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Make the image responsive */
+.image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio while adjusting width */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+
+
+/* Container for the image */
+.image-container {
+    max-width: 100%; /* Ensure the container is not wider than the viewport */
+    min-width: 100%;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Make the image responsive */
+.image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio while adjusting width */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Optional: Media query for smaller screens */
+@media (max-width: 768px) {
+    .image-container {
+       width: auto;
+       height: auto;
+    }
+
+    .image-container img {
+        width: auto;
+        height: auto;
+        /* Add styles for smaller screens if needed */
+    }
+}
